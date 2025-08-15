@@ -2,19 +2,19 @@
 
 A minimalistic physics simulation written in Rust using Macroquad. This project demonstrates basic gravity, collision detection, and bouncing behavior between a moving object and a player-controlled block.
 
-🔗 View on GitHub
 
-✨ Features
 
-🟢 Gravity simulation – The red square accelerates downward over time.
+ Features
 
-🔵 Collision detection – Axis-aligned bounding box (AABB) collisions with automatic position correction.
+ Gravity simulation – The red square accelerates downward over time.
 
-⚡ Bounce physics – Objects respond to collisions with a configurable bounce factor.
+Collision detection – Axis-aligned bounding box (AABB) collisions with automatic position correction.
+
+Bounce physics – Objects respond to collisions with a configurable bounce factor.
 
 Platform control – Move the blue square using keyboard input (W, A, S, D).
 
-🔄 Reset functionality – Reset the red square to its initial position with R.
+ Reset functionality – Reset the red square to its initial position with R.
 
 🛠️ Usage
 
