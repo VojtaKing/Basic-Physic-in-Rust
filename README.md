@@ -15,6 +15,7 @@ Bounce physics – Objects respond to collisions with a configurable bounce fact
 Platform control – Move the blue square using keyboard input (W, A, S, D).
 
  Reset functionality – Reset the red square to its initial position with R.
+![Preview](physic.gif)
 
 🛠️ Usage
 
