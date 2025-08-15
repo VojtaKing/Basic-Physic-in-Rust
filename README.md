@@ -1,31 +1,32 @@
-Physic Playground – Rust + Macroquad
+🎮 Basic Physic in Rust – Macroquad Demo
 
-A minimalistic physics simulation built in Rust using Macroquad. This project demonstrates basic gravity, collision detection, and bouncing behavior between a moving object and a player-controlled block.
+A minimalistic physics simulation written in Rust using Macroquad. This project demonstrates basic gravity, collision detection, and bouncing behavior between a moving object and a player-controlled block.
 
-Features
+🔗 View on GitHub
 
-Gravity simulation – The red square accelerates downward over time.
+✨ Features
 
-Collision detection – Axis-aligned bounding box (AABB) collisions are resolved with position correction.
+🟢 Gravity simulation – The red square accelerates downward over time.
 
-Bounce physics – Objects respond to collisions with a configurable bounce factor.
+🔵 Collision detection – Axis-aligned bounding box (AABB) collisions with automatic position correction.
 
-Player control – Move the blue square using keyboard input (W, A, S, D).
+⚡ Bounce physics – Objects respond to collisions with a configurable bounce factor.
 
-Reset functionality – Reset the red square to its initial position with R.
+🎮 Player control – Move the blue square using keyboard input (W, A, S, D).
 
-Usage
+🔄 Reset functionality – Reset the red square to its initial position with R.
+
+🛠️ Usage
 
 Clone the repository:
-
-git clone https://github.com/yourusername/physic-playground.git
-cd physic-playground
-
-
+```
+git clone https://github.com/VojtaKing/Basic-Physic-in-Rust.git
+cd Basic-Physic-in-Rust
+```
 Run the project:
-
+```
 cargo run
-
+```
 
 Controls:
 
@@ -35,13 +36,13 @@ A	Move blue square left
 S	Move blue square down
 D	Move blue square right
 R	Reset red square position
-Code Overview
+🧠 How it Works
 
 collide_and_fix: Resolves collisions between two rectangles by adjusting positions to prevent overlap and updating velocities.
 
 Main loop: Updates object positions, applies gravity, handles input, detects collisions, and renders frames.
 
-Dependencies
+📦 Dependencies
 
 Rust 1.70+
 
